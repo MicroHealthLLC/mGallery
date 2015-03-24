@@ -1,0 +1,17 @@
+{
+  "name": "mGallery",
+  "version": "1",
+  "manifest_version": 2,
+  "description": "Local storage image gallery",
+  "permissions": [{
+      "mediaGalleries": ["read", "allAutoDetected"] 
+  }],
+  "icons": {
+    "128": "gallery-icon128.png"
+  },
+  "app": {
+     "background": {
+       "scripts": ["runtime.js"]
+     }
+  }
+}
